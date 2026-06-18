@@ -38,6 +38,17 @@ section.banner {
   justify-content: space-between;
 }
 
+.cs12-link li a
+{
+    font-weight: 600;
+    color: brown;
+}
+
+.cs12-link li a:hover
+{
+  text-decoration: underline;
+}
+
 .CTAbutton.disp-B {
   padding: 10px 30px;
   background: #ffdfb4;

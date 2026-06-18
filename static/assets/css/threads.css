@@ -402,11 +402,15 @@
 }
 
 #modal-social.modal-social a {
-    border: 2px solid #d1e1ff;
     font-size: 13px;
     padding: 4px 16px;
     border-radius: 6px;
-    background: aliceblue;
+    background: #000;
+    color: #fff;
+}
+
+#modal-social.modal-social a:hover {
+    opacity: .9;
 }
 
 .wrp {
@@ -415,7 +419,7 @@
     padding-top: 40px;
 }
 
-header {
+header,footer {
     background: var(--c-bg-header);
     padding: 15px;
     border-radius: 12px;
@@ -650,9 +654,12 @@ code {
 
 .section-status-text {
     color: var(--c-text-main);
+    width: calc(100% - 90px);
 }
 
 .status-badge {
+    max-width: 80px;
+    margin-right: 10px;
     display: inline-block;
     padding: 4px 12px;
     border-radius: 20px;
@@ -678,6 +685,21 @@ code {
 .theme-dark .status-running {
     background: #3d2e1b;
     color: #ffb74d;
+}
+
+footer.txt-C.wrp p {
+    margin: 0;
+    color:#000;
+}
+
+footer.txt-C.wrp {
+    padding-top: 15px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+footer.txt-C.wrp p a {
+    color: #3700ff;
 }
 
 .actions .svg-cont,
@@ -759,5 +781,22 @@ header div .svg-cont {
 
     [data-tooltip-text]::after {
         display: none !important;
+    }
+}
+
+
+@media (max-width:475px) {
+    .logo-txt
+    {
+        font-size: 24px;
+    }
+}
+
+
+
+@media (max-width:350px) {
+    .logo-txt
+    {
+        font-size: 18px;
     }
 }

@@ -1,0 +1,4 @@
+<details {{ if eq (.Get "open") "true" }}open{{ end }}>
+  <summary>{{ .Get "title" | default "بیشتر بخوانید" }}</summary>
+  {{ .Inner | markdownify }}
+</details>

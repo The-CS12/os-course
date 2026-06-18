@@ -6,18 +6,42 @@
 <section class="banner">
     <div class="wrapper fl">
         <div>
-            <h1 class="mrg0 txt-C">{{ .Site.Params.banner.title }}</h1>
+            <h1 class="mrg0 txt-C logo-txt">یادگیری {{ .Site.Params.banner.subject }} با تِرِد</h1>
 
             <hr class="hr">
             <hr class="hr">
+
 
             <p class="mrg0 info">
-                <img src="{{ .Site.Params.banner.image }}" alt="تصویر thread">
+                <img src="/assets/static-pic/thread.png" alt="تصویر thread">
 
-                <strong class="disp-B">{{ .Site.Params.banner.section_title }}</strong>
+                <strong class="disp-B">تِرِد چیست؟</strong>
 
                 <span class="disp-B mrg-T10">
-                     {{ .Site.Params.banner.description }}
+                     تِرِد در معنای پست کوتاه معمولاً به یک نوشته‌ی مختصر و فشرده در شبکه‌های اجتماعی گفته می‌شود؛ جایی که کاربر در چند خط، یک ایده، خبر، نظر یا نکته را بیان می‌کند. این نوع پست‌ها معمولاً سریع خوانده می‌شوند، ریتم تند دارند و برای جلب توجه در میان انبوه محتوا طراحی شده‌اند. تِرِدها به دلیل کوتاهی، اغلب لحنی خودمانی‌تر و مستقیم‌تر دارند و بیشتر برای بیان یک ایده، یک واکنش لحظه‌ای، یا انتقال سریع اطلاعات استفاده می‌شوند.
+                
+                    از این رو، در این وبسایت <b> {{ .Site.Params.author.name }} </b> تلاش می‌کند تا 
+                    مبحث <strong>{{ .Site.Params.banner.subject }}</strong> را به شما آموزش دهد... 
+                    <br />
+                    <br />
+                    برای یادگیری مباحث بیشتر عضو کامیونیتی CS12 (Computer Science 12) شوید :
+                    <ul class="cs12-link">
+                        <li>
+                            <a href="https://t.me/ccismywife" title="CS12 GROUP CHAT IN TELEGRAM" target="_blank">
+                                گروه چت CS12
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://t.me/cbe_archive" title="CS12 CHANNEL IN TELEGRAM" target="_blank">
+                                چنل تلگرام CS12
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/company/computer-science-12" title="CS12 LINKEDIN COMPANY" target="_blank">
+                                لینکدین CS12
+                            </a>
+                        </li>
+                    </ul>
                 </span>
 
                 <hr class="hr">
@@ -34,11 +58,11 @@
                         data-modal-title="{{ .Site.Params.modal.empty_title }}"
                         data-modal-text="{{ .Site.Params.modal.empty_text }}"
                         >
-                        {{ .Site.Params.banner.cta_text }}
+                        شروع یادگیری رایگان
                     </a>
                     {{ else }}
 
-                        <a href="/threads/" class="CTAbutton disp-B">{{ .Site.Params.banner.cta_text }}</a>
+                        <a href="/threads/" class="CTAbutton disp-B">شروع یادگیری رایگان</a>
                     {{ end }}
                 </div>
             </p>
@@ -49,10 +73,10 @@
         <section class="fl aliI-CE jusCo-SP mrg-T15" id="_bannerFooter">
 
             <div class="fl">
-                <img src="{{ .Site.Params.author.avatar }}" alt="تصویر پروفایل" class="disp-B borOK" width="45" height="45">
+                <img src="/assets/static-pic/cs12-icon.png" alt="تصویر پروفایل" class="disp-B borOK" width="45" height="45">
                 <p class="mrg0">
                     <span class="disp-B">نوشته شده توسط</span>
-                    <b>{{ .Site.Params.author.name }}</b>
+                    <b>فَرِهان - CS12</b>
                 </p>
             </div>
 

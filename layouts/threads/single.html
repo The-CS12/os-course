@@ -13,7 +13,7 @@
              </div>
             <main>
                 {{ if .Params.image }}
-                <img src="{{.Params.image}}" alt="تصویر: اوپس 502" title="{{.Title}}" class="disp-B timg">
+                <img src="/assets/img/{{.Params.image}}" alt="تصویر: اوپس 502" title="{{.Title}}" class="disp-B timg">
                 {{ end }}
                 <article class="thread-detail fl" style="flex-direction: column; gap: 15px;"
                     data-uid="{{ path.Base .File.Dir  }}-{{ .File.BaseFileName }}"
@@ -173,34 +173,25 @@
                     </div>
                 {{ end }}
 
-                {{ if .Site.Params.giscus.repoId }}
+                {{if .Params.comments}}
+                {{ if .Site.Params.giscus.script }}
                 <div class="giscus-section">
                     <h4 class="contributors-title">نظرات</h4>
+                    <div class="giscus"></div>
                     <div class="giscus-container">
-                        <script src="https://giscus.app/client.js"
-                            data-repo="{{ .Site.Params.giscus.repo }}"
-                            data-repo-id="{{ .Site.Params.giscus.repoId }}"
-                            data-category="{{ .Site.Params.giscus.category }}"
-                            data-category-id="{{ .Site.Params.giscus.categoryId }}"
-                            data-mapping="pathname"
-                            data-strict="0"
-                            data-reactions-enabled="1"
-                            data-emit-metadata="0"
-                            data-input-position="top"
-                            data-theme="light"
-                            data-lang="fa"
-                            data-loading="lazy"
-                            crossorigin="anonymous"
-                            async>
-                        </script>
+                        {{ with .Site.Params.giscus }}
+                                {{ .script | safeHTML }}
+                        {{ end }}
                     </div>
                 </div>
+                {{ end }}
                 {{ end }}
 
             </main>
         </section>
         {{ partial "svgs.html" . }}
         {{ partial "modal.html" . }}
+        {{ partial "footer.html" . }}
         {{ if .Site.Params.dark_mode.enabled }}<script src="/assets/js/darkmode.js"></script>{{ end }}
         <script src="/assets/js/isread.js"></script>
         <script src="/assets/js/modal.js"></script>
