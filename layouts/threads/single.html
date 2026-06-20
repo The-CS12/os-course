@@ -96,7 +96,7 @@
                         <b class="disp-B"> شماره تِرِد : </b>
                         <span class="disp-B">شماره {{.Params.order}} از {{ len .CurrentSection.Pages }}</span>
                     </div>
-
+                    {{if .Params.license}}
                     <div class="svg-cont por zin5 clickable"
                     data-tooltip-text = "لایسنس"
                     data-modal
@@ -107,8 +107,10 @@
                     <svg viewBox="0 0 512 512">
                         <use href="#_LICENSE_ICON" xlink:href="#_LICENSE_ICON"></use>
                     </svg>
+                    
                 </div>
-                </div>
+                    {{end}}
+            </div>
                 </article>
 
                    <div class="ph fl aliI-CE jusCo-SP">
@@ -127,7 +129,7 @@
 
                 <div class="github-links">
                     <div class="fl aliI-CE jusCo-SP">
-                        <a href="https://github.com/{{ .Site.Params.github.repo }}/edit/{{ .Site.Params.github.branch }}/{{ .File.Path }}" 
+                        <a href="https://github.com/{{ .Site.Params.github.repo }}/edit/{{ .Site.Params.github.branch }}/content/{{ .File.Path }}" 
                            target="_blank" 
                            class="github-link github-edit"
                            title="ویرایش این صفحه در گیت‌هاب">
@@ -136,7 +138,7 @@
                             </svg>
                             <span>ویرایش مطلب</span>
                         </a>
-                        <a href="https://github.com/{{ .Site.Params.github.repo }}/blob/{{ .Site.Params.github.branch }}/{{ .File.Path }}" 
+                        <a href="https://github.com/{{ .Site.Params.github.repo }}/blob/{{ .Site.Params.github.branch }}/content/{{ .File.Path }}" 
                            target="_blank" 
                            class="github-link github-view"
                            title="مشاهده منبع در گیت‌هاب">
