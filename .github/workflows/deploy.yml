@@ -2,7 +2,7 @@ name: Deploy Hugo Site to Pages
 
 on:
   push:
-    branches: ["content"] 
+    branches: ["content"]  # حتما برنچ مورد نظر رو بزار...
   workflow_dispatch:
 
 permissions:
@@ -34,7 +34,7 @@ jobs:
         run: hugo --gc --minify
 
       - name: Create CNAME file
-        run: echo "<yourCourseName>.cs12.ir" > public/CNAME 
+        run: echo "<yourCourseName>.cs12.ir" > public/CNAME # دامنه کورس
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
