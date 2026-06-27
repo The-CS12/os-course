@@ -1,4 +1,4 @@
-baseURL = "https://example.org"
+baseURL = "https://os.cs12.ir"
 languageCode = "fa-ir"
 # بهتره که به این شکل باشه : اسم مبحث + به سبک تِرِد 
 # مثلا : شبکه به سبک تِرِد
@@ -119,7 +119,7 @@ congrats_image = "/assets/static-pic/congrat.gif"
 
 [params.github]
 # آدرس ریپو گیت هابتون رو این شکلی بزارید :  username/repo-name
-repo = "farhantbyte/ntb-theme"
+repo = "The-CS12/os-course"
 # برنچ اصلی رو هم بزارید...
 branch = "main"
 
