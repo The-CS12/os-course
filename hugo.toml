@@ -2,7 +2,7 @@ baseURL = "https://os.cs12.ir"
 languageCode = "fa-ir"
 # بهتره که به این شکل باشه : اسم مبحث + به سبک تِرِد 
 # مثلا : شبکه به سبک تِرِد
-title = "عنوان سایت"
+title = "سیستم عامل به سبک تِرِد"
 
 # ===========================================
 # تنظیمات کلی سایت
@@ -10,13 +10,13 @@ title = "عنوان سایت"
 
 [params]
 # توضیح کوتاه برای کل سایت بیشتر بدرد seo میخوره
-description = "توضیح کوتاه مثلا یادگیری شبکه با تِرد های کوتاه"
-threads_preview_count = 3
+description = "یادگیری مفاهیم سیستم عامل به سبک تِرِد"
+threads_preview_count = 5
 threads_chap_count_per_page = 2
 
 [params.banner]
 # مثلا سیستم عامل یا شبکه
-subject = "اسم مبحث"
+subject = "سیستم عامل"
 
 # ===========================================
 # تنظیمات دارک مود
@@ -35,20 +35,20 @@ enabled = false
 # ===========================================
 
 [params.license]
-text = " مگه میشه مطلبی بدون لایسنس آخه؟ لایسنس این مطلب : {license}"
+text = "⚖️ مگه میشه مطلبی بدون لایسنس آخه؟ لایسنس این مطلب : {license}"
 
 # ===========================================
 # اطلاعات نویسنده اصلی سایت
 # ===========================================
 
 [params.author]
-name = "اسم نویسنده"
+name = "فرزاد"
 # بیوگرافی کوتاه نویسنده که زیر اسمش نمایش داده میشه
-bio = "دانشجوی علوم کامپیوتر و علاقمند به برنامه‌نویسی سطح پایین، در حال حاضر روی پروژه وبها کار می‌کنم"
+bio = "سلام👋 فرزاد هستم دانشجوی رشته کامپیوتر. علاقه مند به کامپیوتر ها، برنامه نویسی و لینوکس🐧"
 # آدرس عکس پروفایل نویسنده 
 avatar = "/assets/static-pic/avatar.png"
 # لینک صفحه دونیت یا حمایت مالی
-donate_url = "#"
+donate_url = "https://www.coffeebede.com/farzadoxo"
 
 # ===========================================
 # لینک‌های شبکه‌های اجتماعی نویسنده (اختیاری)
@@ -61,8 +61,9 @@ donate_url = "#"
 # مثال: {name = "github", url = "https://github.com/user"}
 
 social_links = [
-  {name = "گیت هابم", url = "https://github.com/user"},
-  {name = "تلگرام", url = "#"},
+  {name = "GitHub", url = "https://github.com/farzadoxo"},
+  {name = "Telegram", url = "https://t.me/farzadoxo"},
+  {name = "LinkedIn", url = "https://linkedin.com/in/f-ebrahimi"}
 ]
 
 # ===========================================
@@ -93,15 +94,15 @@ mark_read_text = "خوندی؟ کلیک کن"
 # متن دکمه بعد از کلیک (یعنی ترد خوانده شده)
 marked_read_text = "خونده نشده"
 # متن عنوان مدال تبریک بعد از خوندن ترد
-congrats_title = "تبریک عرض مینمایم"
+congrats_title = "تبریک عرض مینمایم 🎉"
 # متن مدال تبریک (کاراکتر {count} با تعداد تردهای خوانده شده جایگزین میشه)
-congrats_text = "تا الان {count} ترد خوندی بنازمتتتت"
+congrats_text = "تا الان {count} ترد خوندی بنازمتتتت 😃"
 # متن اشتراک‌گذاری (کاراکتر {title} با عنوان ترد جایگزین میشه)
 share_text = "سلام دوستان! ترد '{title}' رو بخونید، خیلی مفیده"
 # تعداد ترد در هر صفحه مربوط به اون فصل مثلا : /threads/chapter1
 threads_per_page = 5
 # آدرس عکس تبریک (بعد از خوندن ترد)
-congrats_image = "/assets/static-pic/congrat.gif"
+congrats_image = "static/assets/static-pic/congrat.gif"
 
 # ===========================================
 # دست نزن به این بخش برادر من خب...
@@ -133,8 +134,20 @@ branch = "main"
 [params.giscus]
 # اسکریپتی که از giscus گرفتید رو اینجا پیست کنید
 script = '''
-
-# جای اسکریپتتون این کامنت رو پاک کنید و اسکریپت رو اینجا بزارید.
-
+<script src="https://giscus.app/client.js"
+        data-repo="The-CS12/os-course"
+        data-repo-id="R_kgDOTGzO3g"
+        data-category-id="DIC_kwDOTGzO3s4DAALG"
+        data-mapping="og:title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
 '''
 

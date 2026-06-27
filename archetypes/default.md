@@ -4,14 +4,14 @@ title: "{{ replace .File.ContentBaseName "-" " " | title }}"
 # تاریخ انتشار پست
 date: {{ .Date }}
 # اگر فالس باشه نمایش داده نمیشه
-draft: true
+draft: false
 # اوردر پست بهتره به صورت اینکریمنتال افزایش پیدا کنه
 order: 1
 # توضیح کوتاه پست برای seo
 description: ""
 
 # لایسنس این مطلب رو بنویسید مثلا MIT
-license: ""
+license: "CC BY-SA 4.0"
 
 # تصویر شاخص پست فقط کافیه که نام تصویر رو بزارید
 # اول تصویر رو در /static/assets/img قرار بدید
