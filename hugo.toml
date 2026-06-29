@@ -120,11 +120,9 @@ congrats_image = "static/assets/static-pic/congrat.gif"
 
 [params.github]
 # آدرس ریپو گیت هابتون رو این شکلی بزارید :  username/repo-name
-<<<<<<< HEAD
 repo = "The-CS12/os-course"
 =======
 repo = "The-CS12/ntb-theme"
->>>>>>> upstream/main
 # برنچ اصلی رو هم بزارید...
 branch = "main"
 
