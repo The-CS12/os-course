@@ -122,7 +122,7 @@ congrats_image = "static/assets/static-pic/congrat.gif"
 # آدرس ریپو گیت هابتون رو این شکلی بزارید :  username/repo-name
 repo = "The-CS12/os-course"
 # برنچ اصلی رو هم بزارید...
-branch = "content"
+branch = "main"
 
 # ===========================================
 # تنظیمات سیستم نظرات
