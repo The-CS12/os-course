@@ -102,7 +102,7 @@ share_text = "سلام دوستان! ترد '{title}' رو بخونید، خیل
 # تعداد ترد در هر صفحه مربوط به اون فصل مثلا : /threads/chapter1
 threads_per_page = 5
 # آدرس عکس تبریک (بعد از خوندن ترد)
-congrats_image = "static/assets/static-pic/congrat.gif"
+congrats_image = "/assets/static-pic/congrat.gif"
 
 # ===========================================
 # دست نزن به این بخش برادر من خب...
