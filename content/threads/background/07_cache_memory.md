@@ -8,7 +8,7 @@ license: CC BY-SA 4.0
 image: cache-memory-01.png
 comments: true
 ---
-
+____________________
 
 همونطور که توی ترد دوم گفتیم در طول **Instruction cycle** پردازنده حداقل یک بار برای Fetch کرد دستورالعمل ‍`(Fetch stage)` به مموری مراجعه میکنه.!
 

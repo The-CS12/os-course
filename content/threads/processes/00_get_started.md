@@ -9,7 +9,7 @@ image: ""
 comments: true
 mathEnable: false
 ---
-
+____________________
 خب فصل دوم رو شروع میکنیم و لازمه که بهتون تبریک بگم 🔥 <br>
 توی این فصل میریم سراغ Process ها، Thread ها، Concurrency (همروندی)،  Starvation&Deadlock ها (بن بست و گرسنگی)!<br>
 این فصل شامل 4 چپتر هستش که به ترتیب زیر مطالب ارائه میشن: <br>
@@ -20,6 +20,8 @@ mathEnable: false
 
 ### فهرست مطالب
 - What is Process | پراسس چیه؟
+- Process State | وضعیت پراسس
+- Operating system control structure | ساختار کنترلی سیستم عامل
 
 
 
@@ -32,46 +34,3 @@ mathEnable: false
 
 >‌ **موفق باشید :) 🎄**
 
-
-{{< readmore type="" title="یکم بیشتر بدونید" open="false" >}}
-متن کامل
-{{< /readmore >}}
-
-{{< readmore type="info" title="توضیحات" open="true" >}}
-متن کامل
-{{< /readmore >}}
-
-
-{{< readmore type="warning" title="هشدار" open="false" >}}
-متن کامل
-{{< /readmore >}}
-
-
-{{< readmore type="error" title="خطا" open="false" >}}
-متن کامل
-{{< /readmore >}}
-
-
-{{< readmore type="project" title="پروژه" open="false" >}}
-متن کامل
-{{< /readmore >}}
-
-{{< readmore type="bestPractice" title="بهتر است این کار را کنید" open="false" >}}
-متن کامل
-{{< /readmore >}}
-
-
-{{< readmore type="excercise" title="تمرین" open="false" >}}
-متن کامل
-{{< /readmore >}}
-
-<!-- کد ریوزیبل مودال مدیا وسط پست -->
-
-<!-- این تایپ میتونه  -->
-
-{{< 
-    mediamodal type="تایپ رو بنویس"
-    src="لینک مدیا"
-    title="عنوان مودال"
-    text="متن مودال"
->}}

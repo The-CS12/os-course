@@ -9,6 +9,7 @@ image: ""
 comments: true
 mathEnable: false
 ---
+____________________
 به زبان ساده پراسس یک برنامه در حال اجراست 💡 <br>
 **Program** ها فایل های ساکن **(Passive entity)** روی *دیسک* هستن اما **Process** ها یک موجود فعال **(Active entity)** هستن که توی مموری اجرا میشن! <br>
 

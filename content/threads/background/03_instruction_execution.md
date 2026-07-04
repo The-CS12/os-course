@@ -19,7 +19,7 @@ image: "instruction-execution-01.png"
 comments: true
 ---
 <br>
-
+____________________
 برای اجرای هر برنامه (**Process**) ما نیاز به توالی از دستورالعمل ها (**Instructions**) تو مموری داریم! این یعنی هر برنامه شامل کلی دستورالعمل میشه که تو مموری ذخیره شده 🔁 <br>
 به این عملیات **Instruction Execution** گفته میشه. این عمل به وسیله مکانیزمی به نام **Instruction Cycle** انجام میشه! <br>
 این مکانیزم شامل ۲ استیج مهم به نام **Fetch stage** و **Execute stage** هست.<br>
