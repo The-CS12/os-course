@@ -29,7 +29,7 @@ ____________________
 متن کامل
 {{< /readmore >}}
 
-{{< readmore type="info" title="توضیحات" open="true" >}}
+{{< readmore type="info" title="توضیحات" open="false" >}}
 متن کامل
 {{< /readmore >}}
 
