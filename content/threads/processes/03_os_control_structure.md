@@ -52,6 +52,3 @@ PCB ها تمامی اطلاعات هر پراسس رو توی خودشون نگ
 > **بنابراین Process های توی Process table به سایر تیبل ها لینک دارن❗**
 {{< /readmore >}}
 
-{{< readmore type="info" title="توضیحات" open="true" >}}
-متن کامل
-{{< /readmore >}}
