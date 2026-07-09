@@ -19,7 +19,7 @@ license: "CC BY-SA 4.0"
 
 image: ""
 # اگر میخوای این مطلب کامنت داشته باشه...
-comments: true
+comments: false
 mathEnable: false
 ---
 ____________________

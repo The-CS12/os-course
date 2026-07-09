@@ -6,7 +6,7 @@ order: 1
 description: سرفصل ها
 license: CC BY-SA 4.0
 image: ""
-comments: true
+comments: false
 mathEnable: false
 ---
 ____________________
@@ -22,6 +22,8 @@ ____________________
 - What is Process | پراسس چیه؟
 - Process State | وضعیت پراسس
 - Operating system control structure | ساختار کنترلی سیستم عامل
+- Process Location | محل قرارگیری پراسس ها
+- Process Control Block (PCB) | بلاک کنترل پراسس
 
 
 
