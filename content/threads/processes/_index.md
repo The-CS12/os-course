@@ -1,6 +1,6 @@
 +++
 
-group_status = "running"
+group_status = "done"
 title = "Processes"
 weight = 2
 
