@@ -11,7 +11,7 @@ title = "سیستم عامل به سبک تِرِد"
 [params]
 # توضیح کوتاه برای کل سایت بیشتر بدرد seo میخوره
 description = "یادگیری مفاهیم سیستم عامل به سبک تِرِد"
-threads_preview_count = 5
+threads_preview_count = 10
 threads_chap_count_per_page = 2
 
 [params.banner]
