@@ -11,7 +11,7 @@ title = "سیستم عامل به سبک تِرِد"
 [params]
 # توضیح کوتاه برای کل سایت بیشتر بدرد seo میخوره
 description = "یادگیری مفاهیم سیستم عامل به سبک تِرِد"
-threads_preview_count = 10
+threads_preview_count = 5
 threads_chap_count_per_page = 2
 
 [params.banner]
@@ -100,7 +100,7 @@ congrats_text = "تا الان {count} ترد خوندی بنازمتتتت 😃
 # متن اشتراک‌گذاری (کاراکتر {title} با عنوان ترد جایگزین میشه)
 share_text = "سلام دوستان! ترد '{title}' رو بخونید، خیلی مفیده"
 # تعداد ترد در هر صفحه مربوط به اون فصل مثلا : /threads/chapter1
-threads_per_page = 5
+threads_per_page = 10
 # آدرس عکس تبریک (بعد از خوندن ترد)
 congrats_image = "/assets/static-pic/congrat.gif"
 
