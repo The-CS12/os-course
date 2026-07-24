@@ -28,14 +28,14 @@ ____________________
 توی این فصل با مباحث ابتدایی سیستم عامل آشنا میشیم. مباحثی که تا پایان کورس بهش نیاز پیدا میکنید! <br>
 
 ### فهرست مطالب
-1. سیستم عامل چیه؟
-2. Basic Elements | مفاهیم پایه ای
-3. Instruction Execution | اجرای دستورالعمل ها
-4. Interrupts | وقفه ها
-5. Interrupt Processing | پردازش وقفه ها
-6. Memory Hirarchy | سلسله مراتب حافظه (هرم مموری)
-7. Cache Memory | حافظه نهان (کش)
-8. Direct Memory Access | دسترسی مستقیم به حافظه
+1. سیستم عامل چیه؟ [[+]](https://os.cs12.ir/threads/background/01_what_is_os/)
+2. Basic Elements | مفاهیم پایه ای [[+]](https://os.cs12.ir/threads/background/02_basic_elements/)
+3. Instruction Execution | اجرای دستورالعمل ها [[+]](https://os.cs12.ir/threads/background/03_instruction_execution/)
+4. Interrupts | وقفه ها [[+]](https://os.cs12.ir/threads/background/04_interrupts/)
+5. Interrupt Processing | پردازش وقفه ها [[+]](https://os.cs12.ir/threads/background/05_interrupt_processing/)
+6. Memory Hirarchy | سلسله مراتب حافظه (هرم مموری) [[+]](https://os.cs12.ir/threads/background/06_memory_hierarchy/)
+7. Cache Memory | حافظه نهان (کش) [[+]](https://os.cs12.ir/threads/background/07_cache_memory/)
+8. Direct Memory Access | دسترسی مستقیم به حافظه [[+]](https://os.cs12.ir/threads/background/08_direct_memory_access/)
 
 
 ### در پایان فصل انتظار میره:
