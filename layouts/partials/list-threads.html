@@ -11,7 +11,8 @@
 
 
 
-{{ $paginator := .Paginate (sort .Sections "Weight" "asc") $.Site.Params.threads_chap_count_per_page }}
+{{ $sections := where (sort .Sections "Weight" "asc") "Draft" false }}
+{{ $paginator := .Paginate $sections $.Site.Params.threads_chap_count_per_page }}
 {{ range $paginator.Pages }}
 {{ $group := . }}
 <div class="thread-group" data-status="{{ .Params.group_status }}">
