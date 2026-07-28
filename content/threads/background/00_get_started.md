@@ -1,0 +1,50 @@
+---
+# عنوان پست
+title: "مقدمه"
+# تاریخ انتشار پست
+date: 2026-06-27T19:04:36+03:30
+# اگر فالس باشه نمایش داده نمیشه
+draft: false
+# اوردر پست بهتره به صورت اینکریمنتال افزایش پیدا کنه
+order: 1
+# توضیح کوتاه پست برای seo
+description: "سرفصل ها و توضیحات مربوط به فصل"
+
+# لایسنس این مطلب رو بنویسید مثلا MIT
+license: "CC BY-SA 4.0"
+
+# تصویر شاخص پست فقط کافیه که نام تصویر رو بزارید
+# اول تصویر رو در /static/assets/img قرار بدید
+# سپس نام تصویر رو اینجا بگزارید مثلا x.jpeg
+
+image: ""
+# اگر میخوای این مطلب کامنت داشته باشه...
+comments: false
+mathEnable: false
+---
+____________________
+خیلی خوش اومدین به اولین فصل از کورسمون 🎉 
+
+توی این فصل با مباحث ابتدایی سیستم عامل آشنا میشیم. مباحثی که تا پایان کورس بهش نیاز پیدا میکنید! <br>
+
+### فهرست مطالب
+1. سیستم عامل چیه؟ [[+]](https://os.cs12.ir/threads/background/01_what_is_os/)
+<!-- 2. Basic Elements | مفاهیم پایه ای [[+]](https://os.cs12.ir/threads/background/02_basic_elements/)
+3. Processor | پردازنده (CPU) [[+]](https://os.cs12.ir/threads/background/03_processor/)
+4. Main Memory | حافظه اصلی [[+]](https://os.cs12.ir/threads/background/04_memory/)
+5. I/O Modules | ماژول های ورودی و خروجی [[+]](https://os.cs12.ir/threads/background/05_input-output/)
+6. Bus | باس ها [[+]](https://os.cs12.ir/threads/background/06_bus/)
+7. Instruction Execution | اجرای دستورالعمل ها [[+]](https://os.cs12.ir/threads/background/07_instruction_execution/)
+8. Interrupts | وقفه ها [[+]](https://os.cs12.ir/threads/background/08_interrupts/)
+9. Interrupt Processing | پردازش وقفه ها [[+]](https://os.cs12.ir/threads/background/09_interrupt_processing/)
+10. Memory Hirarchy | سلسله مراتب حافظه (هرم مموری) [[+]](https://os.cs12.ir/threads/background/10_memory_hierarchy/)
+11. Cache Memory | حافظه نهان (کش) [[+]](https://os.cs12.ir/threads/background/11_cache_memory/)
+12. Direct Memory Access | دسترسی مستقیم به حافظه [[+]](https://os.cs12.ir/threads/background/12_direct_memory_access/) -->
+
+
+### در پایان فصل انتظار میره:
+- درباره المنت های پایه ای سیستم عامل بدونید
+- درک خوبی از وقفه ها داشته باشید و نجوه اجرا شدندشون رو بدونید
+- درباره انواع حافظه ها و Cache اطلاعات کافی داشته باشید
+- نحوه اجرای دستورالعمل های هر پراسس رو بدونید
+> **موفق باشین :) 🌴**

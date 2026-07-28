@@ -4,14 +4,14 @@ title: "{{ replace .File.ContentBaseName "-" " " | title }}"
 # تاریخ انتشار پست
 date: {{ .Date }}
 # اگر فالس باشه نمایش داده نمیشه
-draft: true
+draft: false
 # اوردر پست بهتره به صورت اینکریمنتال افزایش پیدا کنه
 order: 1
 # توضیح کوتاه پست برای seo
 description: ""
 
 # لایسنس این مطلب رو بنویسید مثلا MIT
-license: ""
+license: "CC BY-SA 4.0"
 
 # تصویر شاخص پست فقط کافیه که نام تصویر رو بزارید
 # اول تصویر رو در /static/assets/img قرار بدید
@@ -22,35 +22,14 @@ image: ""
 comments: true
 mathEnable: false
 ---
+____________________
 
-<!-- این پست یک پست سمپل هست برای این که ادامه بدی میتونی این بخش ها رو استفاده یا پاک کنی -->
-
-<!-- کد ریوزیبل بخش یکم بیشتر بدونید -->
-
-<!-- به صورت پیشفرض اوپن فالس هست تا کاربر برای دیدن محتوا کلیک کنه -->
-<!-- اگر میخواستی به صورت پیشفرض باز باشه true بزارش -->
-<!-- title به صورت پیشفرض همون یکم بیشتر بدونید هست میتونی پاکش کنی... -->
-
-<!-- 
-    + type = {
-        - info
-        - warning
-        - exercise
-        - error
-        - readMore
-        - project
-        - bestPractice
-    }
-
-    میتونی جای تایپ یکی از اینا رو بزاری ...
-    دیفالتش readMore هست.
- -->
 
 {{< readmore type="" title="یکم بیشتر بدونید" open="false" >}}
 متن کامل
 {{< /readmore >}}
 
-{{< readmore type="info" title="توضیحات" open="true" >}}
+{{< readmore type="info" title="توضیحات" open="false" >}}
 متن کامل
 {{< /readmore >}}
 
