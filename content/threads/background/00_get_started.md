@@ -29,9 +29,9 @@ ____________________
 
 ### فهرست مطالب
 1. سیستم عامل چیه؟ [[+]](https://os.cs12.ir/threads/background/01_what_is_os/)
-<!-- 2. Basic Elements | مفاهیم پایه ای [[+]](https://os.cs12.ir/threads/background/02_basic_elements/)
+2. Basic Elements | مفاهیم پایه ای [[+]](https://os.cs12.ir/threads/background/02_basic_elements/)
 3. Processor | پردازنده (CPU) [[+]](https://os.cs12.ir/threads/background/03_processor/)
-4. Main Memory | حافظه اصلی [[+]](https://os.cs12.ir/threads/background/04_memory/)
+<!-- 4. Main Memory | حافظه اصلی [[+]](https://os.cs12.ir/threads/background/04_memory/)
 5. I/O Modules | ماژول های ورودی و خروجی [[+]](https://os.cs12.ir/threads/background/05_input-output/)
 6. Bus | باس ها [[+]](https://os.cs12.ir/threads/background/06_bus/)
 7. Instruction Execution | اجرای دستورالعمل ها [[+]](https://os.cs12.ir/threads/background/07_instruction_execution/)
