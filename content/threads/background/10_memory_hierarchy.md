@@ -1,7 +1,7 @@
 ---
 title: سلسه مراتب حافظه  (هرم مموری)
 date: 2026-06-22T09:10:45+03:30
-draft: true
+draft: false
 order: 11
 description: تو این ترد با هرم مموری و جایگاه هر حافظه در این هرم آشنا میشیم!
 license: CC BY-SA 4.0
