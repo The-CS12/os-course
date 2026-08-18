@@ -1,11 +1,11 @@
 ---
 title: دسترسی مستقیم به مموری
 date: 2026-06-23T08:22:55+03:30
-draft: true
+draft: false
 order: 13
 description: تو این ترد با DMA یا Direct memory access آشنا میشیم.
 license: CC BY-SA 4.0
-image: ""
+image: "dma-01.jpg"
 comments: true
 ---
 ____________________
@@ -27,7 +27,7 @@ ____________________
 
 
 
-{{< readmore type="info" title="DMA دقیقا چیه؟" open="false" >}}
+{{< readmore type="info" title="DMA Controller دقیقا چیه؟" open="false" >}}
 DMA Controller یه قطعه سخت افزاری هستش که بسته به نوع معماری میتونه داخل چیپست کنترل حافظه، داخل خود CPU (خیلی رایج) و داخل خود دستگاه I/O باشه.
 {{< /readmore >}}
 
