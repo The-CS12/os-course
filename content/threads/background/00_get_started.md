@@ -33,13 +33,13 @@ ____________________
 3. Processor | پردازنده (CPU) [[+]](https://os.cs12.ir/threads/background/03_processor/)
 4. Main Memory | حافظه اصلی [[+]](https://os.cs12.ir/threads/background/04_memory/)
 5. I/O Modules | ماژول های ورودی و خروجی [[+]](https://os.cs12.ir/threads/background/05_input-output/)
-<!-- 6. Bus | باس ها [[+]](https://os.cs12.ir/threads/background/06_bus/)
+6. Bus | باس ها [[+]](https://os.cs12.ir/threads/background/06_bus/)
 7. Instruction Execution | اجرای دستورالعمل ها [[+]](https://os.cs12.ir/threads/background/07_instruction_execution/)
 8. Interrupts | وقفه ها [[+]](https://os.cs12.ir/threads/background/08_interrupts/)
 9. Interrupt Processing | پردازش وقفه ها [[+]](https://os.cs12.ir/threads/background/09_interrupt_processing/)
 10. Memory Hirarchy | سلسله مراتب حافظه (هرم مموری) [[+]](https://os.cs12.ir/threads/background/10_memory_hierarchy/)
 11. Cache Memory | حافظه نهان (کش) [[+]](https://os.cs12.ir/threads/background/11_cache_memory/)
-12. Direct Memory Access | دسترسی مستقیم به حافظه [[+]](https://os.cs12.ir/threads/background/12_direct_memory_access/) -->
+12. Direct Memory Access | دسترسی مستقیم به حافظه [[+]](https://os.cs12.ir/threads/background/12_direct_memory_access/)
 
 
 ### در پایان فصل انتظار میره:
