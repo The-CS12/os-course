@@ -1,7 +1,7 @@
 ---
 title: مقدمه
 date: 2026-07-01T09:07:55+03:30
-draft: true
+draft: false
 order: 1
 description: سرفصل ها
 license: CC BY-SA 4.0
@@ -13,14 +13,14 @@ ____________________
 خب فصل دوم رو شروع میکنیم و لازمه که بهتون تبریک بگم 🔥 <br>
 توی این فصل با مفاهیم مرتبط با پروسه ها آشنا میشید. پروسه (Process) ها یکی از مهم ترین مباحث سیستم عامل هستن که رابطه مستقیمی با اجرای برنامه ها و نحوه مدیریت برنامه های در حال اجرا دارن 💫
 ### فهرست مطالب
-- What is Process | پراسس چیه؟
-- Process State | وضعیت پراسس
+- What is Process | پراسس چیه؟ [[+]](https://os.cs12.ir/threads/processes/01_what_is_process/)
+<!-- - Process State | وضعیت پراسس
 - Operating system control structure | ساختار کنترلی سیستم عامل
 - Process Location | محل قرارگیری پراسس ها
 - Process Control Block (PCB) | بلاک کنترل پراسس
 - Modes of Execution | حالات اجرای پراسس
 - Process Creation | مراحل ساخت پراسس
-- Process Switching | جابه جایی بین پراسس ها
+- Process Switching | جابه جایی بین پراسس ها -->
 
 
 
