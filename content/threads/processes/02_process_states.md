@@ -4,7 +4,7 @@ title: "وضعیت پراسس ها"
 # تاریخ انتشار پست
 date: 2026-07-02T18:19:55+03:30
 # اگر فالس باشه نمایش داده نمیشه
-draft: true
+draft: false
 # اوردر پست بهتره به صورت اینکریمنتال افزایش پیدا کنه
 order: 3
 # توضیح کوتاه پست برای seo
@@ -17,7 +17,7 @@ license: "CC BY-SA 4.0"
 # اول تصویر رو در /static/assets/img قرار بدید
 # سپس نام تصویر رو اینجا بگزارید مثلا x.jpeg
 
-image: ""
+image: "process-state.webp"
 # اگر میخوای این مطلب کامنت داشته باشه...
 comments: true
 mathEnable: false

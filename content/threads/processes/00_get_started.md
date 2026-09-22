@@ -14,8 +14,8 @@ ____________________
 توی این فصل با مفاهیم مرتبط با پروسه ها آشنا میشید. پروسه (Process) ها یکی از مهم ترین مباحث سیستم عامل هستن که رابطه مستقیمی با اجرای برنامه ها و نحوه مدیریت برنامه های در حال اجرا دارن 💫
 ### فهرست مطالب
 - What is Process | پراسس چیه؟ [[+]](https://os.cs12.ir/threads/processes/01_what_is_process/)
-<!-- - Process State | وضعیت پراسس
-- Operating system control structure | ساختار کنترلی سیستم عامل
+- Process State | وضعیت پراسس [[+]](https://os.cs12.ir/threads/processes/02_process_states/)
+<!-- - Operating system control structure | ساختار کنترلی سیستم عامل
 - Process Location | محل قرارگیری پراسس ها
 - Process Control Block (PCB) | بلاک کنترل پراسس
 - Modes of Execution | حالات اجرای پراسس
