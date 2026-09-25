@@ -4,7 +4,7 @@ title: "ساختار کنترلی سیستم عامل"
 # تاریخ انتشار پست
 date: 2026-07-03T18:24:25+03:30
 # اگر فالس باشه نمایش داده نمیشه
-draft: true
+draft: false
 # اوردر پست بهتره به صورت اینکریمنتال افزایش پیدا کنه
 order: 4
 # توضیح کوتاه پست برای seo
@@ -17,7 +17,7 @@ license: "CC BY-SA 4.0"
 # اول تصویر رو در /static/assets/img قرار بدید
 # سپس نام تصویر رو اینجا بگزارید مثلا x.jpeg
 
-image: ""
+image: "os-control-structure-01.jpg"
 # اگر میخوای این مطلب کامنت داشته باشه...
 comments: true
 mathEnable: false
@@ -45,7 +45,15 @@ I/O table اطلاعاتی از جمله: نوع دیوایس I/O، وضعیت �
 {{< /readmore >}}
 <br>
 
+{{< 
+    mediamodal type="video"
+    src="https://www.youtube.com/embed/4s2MKuVYKV8?si=8K0ojT6jiezYcFzc"
+    title="Process Control Block"
+    text="این ویدیو اطلاعات خیلی کاملی درباره PCB بهتون میده! VPN فراموش نشه! :)"
+>}}
+
 و اما Process table که یکی از مهمترین ساختار های اطلاعاتی سیستم عامل هستش. اطلاعات همه پراسس ها توی این جدول ذخیره میشه. هر سطر از این جدول در واقع یک PCB هستش!!!‌ بله این جدول برای ذخیره سازی ‍`PCB` ها استفاده میشه که محل ذخیره سازی این جدول هم همون **Kernel space** هست!
+<center><img src="/assets/img/pcb.gif"></center><br>
 
 {{< readmore type="" title="یکم بیشتر بدونید" open="true" >}}
 PCB ها تمامی اطلاعات هر پراسس رو توی خودشون نگه نمیدارن. بلکه اطلاعات مهمی مثل Memory یا File رو با استفاده از Pointer (اشاره گر) ها به سایر Table ها لینک میکنن. <br>
