@@ -16,8 +16,8 @@ ____________________
 - What is Process | پراسس چیه؟ [[+]](https://os.cs12.ir/threads/processes/01_what_is_process/)
 - Process State | وضعیت پراسس [[+]](https://os.cs12.ir/threads/processes/02_process_states/)
 - Operating system control structure | ساختار کنترلی سیستم عامل [[+]](https://os.cs12.ir/threads/processes/03_os_control_structure/)
-<!-- - Process Location | محل قرارگیری پراسس ها
-- Process Control Block (PCB) | بلاک کنترل پراسس
+- Process Location | محل قرارگیری پراسس ها [[+]](https://os.cs12.ir/threads/processes/04_process_location/)
+<!-- - Process Control Block (PCB) | بلاک کنترل پراسس
 - Modes of Execution | حالات اجرای پراسس
 - Process Creation | مراحل ساخت پراسس
 - Process Switching | جابه جایی بین پراسس ها -->
