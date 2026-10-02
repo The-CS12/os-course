@@ -18,7 +18,7 @@ ____________________
 - Operating system control structure | ساختار کنترلی سیستم عامل [[+]](https://os.cs12.ir/threads/processes/03_os_control_structure/)
 - Process Location | محل قرارگیری پراسس ها [[+]](https://os.cs12.ir/threads/processes/04_process_location/)
 - Process Control Block (PCB) | بلاک کنترل پراسس [[+]](https://os.cs12.ir/threads/processes/05_process_control_block/)
-- Modes of Execution | حالات اجرای پراسس [[+]](https://os.cs12.ir/threads/processes/05_process_control_block/06_modes_of_execution/)
+- Modes of Execution | حالات اجرای پراسس [[+]](https://os.cs12.ir/threads/processes/06_modes_of_execution/)
 <!-- - Process Creation | مراحل ساخت پراسس
 - Process Switching | جابه جایی بین پراسس ها -->
 
