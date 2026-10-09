@@ -20,7 +20,7 @@ ____________________
 - Process Control Block (PCB) | بلاک کنترل پراسس [[+]](https://os.cs12.ir/threads/processes/05_process_control_block/)
 - Modes of Execution | حالات اجرای پراسس [[+]](https://os.cs12.ir/threads/processes/06_modes_of_execution/)
 - Process Creation | مراحل ساخت پراسس [[+]](https://os.cs12.ir/threads/processes/07_process_creation)
-<!-- - Process Switching | جابه جایی بین پراسس ها -->
+- Process Switching | جابه جایی بین پراسس ها [[+]](https://os.cs12.ir/threads/processes/08_process_switching)
 
 
 
